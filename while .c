@@ -6,7 +6,7 @@ void main()
 {
    int par, impar, n, i = 1;
    
-   printf("Cuantos pares");
+   printf("Cuantos numeros");
    scanf("%d", &n);
     
     while(i <= n){
