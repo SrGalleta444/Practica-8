@@ -1,17 +1,19 @@
 // Practica 8 Ariel Anaya
-// do-while
+// Ejercicio 10 
+// do-while 
 #include <stdio.h>
 
 void main()
 {
-   int s, i = 0;
+   int s = 0; 
+   int i = 0;
    int n;
    printf("introduzca un numero");
    scanf("%d", &n);
    
    do{
        s = s + n;
-       printf("%d \n", s);
+       printf("Suma: %d \n", s);
        printf("introduzca otro numero");
        scanf("%d", &n);
        
